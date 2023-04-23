@@ -1,0 +1,69 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+
+}
+
+nav {
+    box-sizing: inherit;
+    margin-bottom: 200px;
+    background-color: white;
+}
+
+form {
+    box-sizing: inherit;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+form div {
+    box-sizing: inherit;
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.search-question {
+    box-sizing: inherit;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+
+.search-button {
+    box-sizing: inherit;
+    margin: auto;
+    width: 60%;
+    height: 40px;
+    background-color: #73AD21;
+    border-radius: 10px;
+    font-size: large;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(94, 7, 235);
+    text-align: center;
+    padding: 14px 16px;
+
+  }
+  
+ 
